@@ -37,6 +37,7 @@
             }
 
             $res[self::KEY_STATUS] = 0;
+            $res['id'] = $id;
             return $res;
         }
     }

@@ -39,6 +39,7 @@
             $news_id = qInsertId();
 
             $res[self::KEY_STATUS] = 0;
+            $res['id'] = $news_id;
             return $res;
         }
     }
